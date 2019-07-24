@@ -1,0 +1,50 @@
+<% include partials/header %>
+    
+        <nav>
+        	<a href="/">Home</a>
+        	<a class="current" href="/start">Start</a>
+        	<a href="/development">Development</a>
+        	<a href="/finish">Finish</a>
+        </nav>
+        <hr />
+        
+        <div id="content">
+        	<p id="disclaimer">All information used was found 
+        		<a href="https://developer.android.com/training/basics/firstapp/creating-project">here</a>
+        	</p>
+        	
+            <div class="right">
+        		<img src="img/android.png" alt = "Picture of the Android robot" />
+        	</div>
+        
+        	<h4>Step 1: Download Android Studio</h4>
+        	
+        	<p>Click the link <a href="https://developer.android.com/studio/">here</a> 
+        	to download Android Studio!</p>
+       		
+       		<h4>Step 2: Open a New Project</h4>
+       		
+       		<p>Once you have downloaded Android Studio, open it up and select to 
+       		start a new android project. You can create an Empty Activity. 
+       		<br /><em>Make sure to leave the configuration alone, and to ensure Java is 
+       		your selected language to code.</em> Then click finish!</p> 
+       		
+       		<h4>Step 3: Understanding Your Files</h4>
+       		
+       		<p>The main files you will be using are the following:</p>
+       		
+       		<ul>
+       			<li>app > java > com.example.myfirstapp > <%= randomFileName %></li>
+       			<li>app > <abbr title="Resources">res</abbr> > layout > activity_main.xml</li>
+       			<li>app > manifests > AndroidManifest.xml</li>
+       			<li>Gradle Scripts > build.gradle</li>
+       		</ul>
+       		
+       		<p>Once you open all of these files, we can finally start with making your app!</p>
+
+			<p>Click <a href="development.html">here</a> to move to the next page,
+			or click the button at the top of the page labeled Development to move on!</p>
+        
+        </div>
+        
+<% include partials/footer %>

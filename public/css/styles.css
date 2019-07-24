@@ -1,0 +1,107 @@
+header, main, nav, footer {
+	text-align: center;
+}
+
+body {
+	background-color:#b3d9ff;
+	color:black;
+}
+
+header {
+	color:white;
+	padding-bottom: 20px;
+}
+
+nav a { /* links within "nav" container */
+	font-family: 'Poppins', sans-serif;
+	border: 2px white solid;
+	padding: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-size: 1.8em;
+	text-decoration: none; /* removes underline */
+	color: white; /* by default, links are blue */
+}
+
+nav a:hover { /* pseudo class */
+	background-color: white;
+	color: #b3d9ff;
+	font-size: 2em;
+	transition: .9s; /* transition effect */
+}
+
+main {
+	display: flex;
+	justify-content: center;
+}
+
+footer {
+	font-size: 1em;
+	color: white;
+}
+
+table {
+	margin: 0px auto;
+}
+
+td {
+	padding-right: 10px;
+	font-size: 1.3em;
+}
+
+#table-header {
+	background-color: #351a00;
+}
+
+.table-row {
+	background-color: #753900;
+}
+
+ul {
+	width: 500px;
+	text-align: left;
+}
+
+h1 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 4em;
+	margin-bottom: 0px;
+}
+
+h4 {
+	font-family: 'Poppins', sans-serif;
+	text-align: left;
+}
+
+.right {
+	float: right;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+#current {
+	font-family: 'Poppins', sans-serif;
+	background-color: white;
+	color: #b3d9ff;
+}
+
+#content {
+	font-family: 'Poppins', sans-serif;
+	text-align: left;
+}
+
+#disclaimer {
+	font-size: .8em;
+}
+
+#textbox {
+	font-family: 'Poppins', sans-serif;
+	outline: 5px white;
+	outline-style: groove;
+	padding: 10px;
+}

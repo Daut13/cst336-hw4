@@ -1,0 +1,59 @@
+<% include partials/header %>
+        
+        <nav>
+        	<a href="/">Home</a>
+        	<a href="/start">Start</a>
+        	<a href="/development">Development</a>
+        	<a class="current" href="/finish">Finish</a>
+        </nav>
+        <hr />
+              
+        <div id="content">
+        
+        	<p id="disclaimer">All information used was found 
+        		<a href="https://developer.android.com/training/basics/firstapp/running-app">here</a>
+        	</p>
+        	
+        	<div class="right">
+        		<img src="img/emulator.png" alt = "Picture of an Emulator" />
+        	</div>
+        
+        	<h4>Step 7: Build Your Application</h4>
+       		
+       		<p>Once you've finished up creating your app, make sure to build your appliaction! 
+       		You can do this by selecting Build > Make Project. This will take some time, 
+       		but once it's done you're set up to run your application!</p> 
+        
+        	<h4>Step 8: Setting up an Emulator/Device</h4>
+        	
+        	<h5>Running on an Emulator:</h5>
+        	
+        	<ol>
+        		<li>When in android studio, click the app module and select Run > Run.</li>
+        		<li>Select <em>"Create New Virtual Device"</em></li>
+        		<li>Select a phone of your preference and click Next.</li>
+        		<li>Select the highest API level you can. It will ask you to download this.</li>
+        		<li>In AVD leave the settings alone, and select to deploy your virtual device. Click OK.</li>
+       		</ol>
+       		
+       		<h5>Running on a Device:</h5>
+       		
+       		<ol>
+       			<li>Connect your Android phone to the computer running Android Studio.</li>
+       			<li>Enable USB Debugging in Developer options on your phone.</li>
+       			<li>Open settings > System > About phone</li>
+       			<li>Scroll to the bottom and tap Build number <%= randomNum %> times.</li>
+       			<li>Return to the previous screen to find Developer options 
+       			where you can enable USB debugging.</li>
+       		</ol>
+       		
+       		<p>Click the app module and select Run > Run. Select your device and click OK to run!</p>
+
+			<p>Now you're finished! Congrats on getting started with Android Studio, and best of 
+			luck with continuing your development on mobile!</p>
+
+        <br />
+        
+        </div>
+        
+<% include partials/footer %>
